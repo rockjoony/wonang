@@ -1,74 +1,95 @@
 <!doctype html>
 
 <head>
-   <title>하루</title>
+   <title>원앙빌라</title>
    <meta chaset="utf8">
    <style>
       a {
          text-decoration: none
       }
       h1 {
-         font-size: 50px;
+         font-size:50px;
          text-align:center;
+         border-bottom:1px black solid;
+         padding:10px;
+         margin:0px;
       }
-      p {
-         text-align:center;
+      #aa ol {
+         width:130px;
+         border-right:1px black solid;
+         margin:0px;
+         padding:20px;
       }
-      h2 {
+      #aa {
+         display:grid;
+         grid-template-columns:170px 1fr;
+      }
+      #bb {
          text-align:center;
+         padding:10px;
       }
    </style>
 </head>
 <body>
    <h1><a href="index.html">원앙빌라</a></h1>
-   <ol>
-      <li><a href="1.html">노총각 김씨</a></li>
-      <li><a href="2.html">해질녘 소년에겐</a></li>
-      <li><a style="color:red" href="3.html">하루</a></li>
-   </ol>
+   <div id="aa">
+      <ol>
+         <li><a href="1.html">노총각 김씨</a></li>
+         <li><a href="2.html">해질녘 소년에겐</a></li>
+         <li><a style="color:red" href="3.html">하루</a></li>
+      </ol>
+      
+      <div id="bb">
+         <h2>하루</h2></head>
+         <p>
+         <iframe width="560" height="315" 
+         src="https://www.youtube.com/embed/OQoTiRrw8hc" 
+         title="YouTube video player" frameborder="0" 
+         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+         </p>
 
-   <h2>하루</h2></head>
-   <p>
-   <iframe width="560" height="315" 
-   src="https://www.youtube.com/embed/OQoTiRrw8hc" 
-   title="YouTube video player" frameborder="0" 
-   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-   </p>
-   <p>햇살에 비치는 비의 거울은<br>
-      너의 눈 안의 보석같아<br>
-      해가 저무는 숨겨진 밤들<br>
-      그 밤들 속에<br>
-      도망간 나의 아이같아</p>
-   <p>네가 저물 땐 나의 머리 위엔<br>
-      붉은 물감이 드리울까<br>
-      우산을 쓰고 막아보지만<br>
-      막아보지만<br>
-      나의 하루는 어두워만가</p>
-   <p>고요한 나의 새벽 공기에<br>
-      너의 심장이 들릴까봐<br>
-      두 눈 감고서 두 귀 갖고서<br>
-      그러다 보면<br>
-      나의 하루는 멀어져 가<br>
-      나의 하루는 멀어져 가</p>
-   <p>
-      <div id="disqus_thread"></div>
-<script>
-    /**
-    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
-    /*
-    var disqus_config = function () {
-    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-    };
-    */
-    (function() { // DON'T EDIT BELOW THIS LINE
-    var d = document, s = d.createElement('script');
-    s.src = 'https://wonang.disqus.com/embed.js';
-    s.setAttribute('data-timestamp', +new Date());
-    (d.head || d.body).appendChild(s);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-   </p>
+         <p>햇살에 비치는 비의 거울은<br>
+            너의 눈 안의 보석같아<br>
+            해가 저무는 숨겨진 밤들<br>
+            그 밤들 속에<br>
+            도망간 나의 아이같아</p>
+
+         <p>네가 저물 땐 나의 머리 위엔<br>
+            붉은 물감이 드리울까<br>
+            우산을 쓰고 막아보지만<br>
+            막아보지만<br>
+            나의 하루는 어두워만가</p>
+
+         <p>고요한 나의 새벽 공기에<br>
+            너의 심장이 들릴까봐<br>
+            두 눈 감고서 두 귀 갖고서<br>
+            그러다 보면<br>
+            나의 하루는 멀어져 가<br>
+            나의 하루는 멀어져 가</p>
+
+         <p>
+            <div id="disqus_thread"></div>
+            <script>
+            /**
+             *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+             *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+            /*
+            var disqus_config = function () {
+            this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+            this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+            };
+            */
+            (function() { // DON'T EDIT BELOW THIS LINE
+            var d = document, s = d.createElement('script');
+            s.src = 'https://wonang.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+            })();
+            </script>
+            <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+         </p>
+      </div>
+   </div>
 </body>
+
+

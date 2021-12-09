@@ -8,46 +8,68 @@
          text-decoration: none
       }
       h1 {
-         font-size: 50px;
+         font-size:50px;
          text-align:center;
+         border-bottom:1px black solid;
+         padding:10px;
+         margin:0px;
+      }
+      #aa ol {
+         width:130px;
+         border-right:1px black solid;
+         margin:0px;
+         padding:20px;
+      }
+      #aa {
+         display:grid;
+         grid-template-columns:170px 1fr;
+      }
+      #bb {
+         padding:10px;
       }
    </style>
 </head>
 <body>
    <h1><a href="index.html">원앙빌라</a></h1>
-   <ol>
-      <li><a href="1.html">노총각 김씨</a></li>
-      <li><a href="2.html">해질녘 소년에겐</a></li>
-      <li><a href="3.html">하루</a></li>
-   </ol>
 
-   <h2>원앙빌라</h2></head>
-      <a href="https://www.facebook.com/wonangvilla/" target="-blank" title="원앙빌라 페이스북">
-         <img src="won.png" width="300"></a>
-   <p>원앙빌라는<br>
+   <div id="aa">
+      <ol>
+         <li><a href="1.html">노총각 김씨</a></li>
+         <li><a href="2.html">해질녘 소년에겐</a></li>
+         <li><a href="3.html">하루</a></li>
+      </ol>
 
-      2018년 1월에 결성되어 순천, 광양, 여수 지역 클럽에서 활동하고 있는 5인조 록밴드이다.<br>      
-      첫 싱글인 '노총각 김씨'를 시작으로 사람들이 경험하는 다양한 순간과 감정들을 모던 록, 포크, 하드 록등 
-      여러 장르의 음악을 통해 표현하고자 한다. </p>
-   <p>
-      <div id="disqus_thread"></div>
-<script>
-    /**
-    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
-    /*
-    var disqus_config = function () {
-    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-    };
-    */
-    (function() { // DON'T EDIT BELOW THIS LINE
-    var d = document, s = d.createElement('script');
-    s.src = 'https://wonang.disqus.com/embed.js';
-    s.setAttribute('data-timestamp', +new Date());
-    (d.head || d.body).appendChild(s);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-   </p>
+      <div id="bb">
+         <h2>원앙빌라</h2></head>
+            <a href="https://www.facebook.com/wonangvilla/" target="-blank" title="원앙빌라 페이스북">
+               <img src="won.png" width="300"></a>
+         <p>원앙빌라는<br>
+   
+            2018년 1월에 결성되어 순천, 광양, 여수 지역 클럽에서 활동하고 있는 5인조 록밴드이다.<br>      
+            첫 싱글인 '노총각 김씨'를 시작으로 사람들이 경험하는 다양한 순간과 감정들을 모던 록, 포크, 하드 록등 
+            여러 장르의 음악을 통해 표현하고자 한다. </p>
+
+         <p>
+            <div id="disqus_thread"></div>
+            <script>
+            /**
+            *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+            *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+            /*
+            var disqus_config = function () {
+            this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+            this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+            };
+            */
+            (function() { // DON'T EDIT BELOW THIS LINE
+            var d = document, s = d.createElement('script');
+            s.src = 'https://wonang.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+            })();
+            </script>
+            <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+         </p>
+      </div>
+   </div>  
 </body>
